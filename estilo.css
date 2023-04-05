@@ -1,0 +1,69 @@
+
+
+
+.tabela1 td, .tabela1 th{
+    border-bottom: 1px solid gray;
+    padding: 12px;
+    text-align: center;
+}
+.tabela1{
+    border-spacing: 0px;
+}
+
+.tabela1 tr:nth-child(even){
+    background-color: rgba(28, 20, 20, 0.481);
+}
+
+
+
+/* Tabela 2 */
+.tabela2 p{
+    text-align: center; /* alinha a centro */
+    margin: 4px; /* margin dos parágrafos */
+    font-family: Arial; /* tipo da fonte */
+    color: white;
+}
+.tipo_plano{
+    font-weight: bold; /* negrito */
+}
+.preco{
+    font-size: 48px; /* tamanho da fonte */
+    font-weight: bold;
+}
+
+/* nth-child() -> seleciona elementos específicos
+em um lista de elementos do mesmo tipo */
+.tabela2 tr:nth-child(1) td:nth-child(1){
+    background-color: #3a98bc;
+}
+.tabela2 tr:nth-child(1) td:nth-child(2){
+    background-color: #723e90;
+}
+.tabela2 tr:nth-child(1) td:nth-child(3){
+    background-color: #ad3b42;
+}
+.tabela2 tr:nth-child(1) td:nth-child(4){
+    background-color: #3a947a;
+}
+
+.tabela2 tr:nth-child(2) td:nth-child(1){
+    background-color: #3fbfef;
+}
+.tabela2 tr:nth-child(2) td:nth-child(2){
+    background-color: #8e44b3;
+}
+.tabela2 tr:nth-child(2) td:nth-child(3){
+    background-color: #ef525b;
+}
+.tabela2 tr:nth-child(2) td:nth-child(4){
+    background-color: #41bb94;
+}
+.tabela2 td, .tabela2 th{ padding:30px; }
+.tabela2{ border-spacing: 0;}
+.tabela2 button{ 
+    background-color: white;
+    padding: 8px 16px;
+    border: 0;
+    font-size: 10px;
+    font-weight: bold;
+ }
